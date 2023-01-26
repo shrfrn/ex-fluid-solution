@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 1 1 200px;
+    height: 200px;
+    padding: 10px;
+
+    font-size: 2em;
+    background-color: rgb(97, 129, 148);
+}
+
+.card span {
+    padding: 5px;
+    color: whitesmoke;
+    border-radius: 333px;
+}
